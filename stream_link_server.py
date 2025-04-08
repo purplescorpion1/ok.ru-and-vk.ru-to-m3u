@@ -8,7 +8,7 @@ app = Flask(__name__)
 processes = {}
 
 def start_streamlink_http_server(url):
-    proxy_url = 'http://192.168.1.25:7086'
+    proxy_url = 'http://192.168.1.123:7086'
     
     # Set environment variables for proxy
     env = os.environ.copy()
