@@ -16,7 +16,7 @@ def open_terminal_windows(command1, command2):
 
 def main():
     # Define the commands to be executed
-    command1 = "mitmproxy -s mitmproxyserver.py --listen-host 192.168.1.25 --listen-port 7086"
+    command1 = "mitmproxy -s mitmproxyserver.py --listen-host 192.168.1.123 --listen-port 7086"
     command2 = "python stream_link_server.py"
 
     # Check the operating system and open windows accordingly
