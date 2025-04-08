@@ -41,8 +41,21 @@ Here is an example
 http://192.168.1.123:7085/stream?url=https://ok.ru/live/6195706404393
 ```
 
-## How To Run
+## How To Run - Windows and some linux
 python main.py on windows 11 or python3 main.py on linux
 <br>
 Open the m3u file <br>
 Script must be running for the m3u to work
+
+## How To Run - Linux and others
+Run manually <br>
+<br>
+In one terminal window run
+```
+mitmproxy -s mitmproxyserver.py --listen-host 192.168.1.123 --listen-port 7086
+```
+
+Change IP in above command to IP of machine running the script <br>
+<br>
+Then in another terminal window run <br>
+python3 stream_link_server.py
