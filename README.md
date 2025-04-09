@@ -66,7 +66,7 @@ If mitmproxy moans about moduels not being installed or errors on launch it's pr
 ```
 python3 -m venv myenv
 source myenv/bin/activate
-pip install mitmproxy==8.1.1 blinker==1.4 flask==2.1.3 werkzeug==2.3.8 jinja2==3.0.3 markupsafe==2.1.5 click==8.1.7 pyOpenSSL==22.0.0 cryptography==37.0.4 urllib3==1.26.18 certifi==2022.12.7 h2==4.1.0 wsproto==1.2.0 pyparsing==3.0.9
+pip install mitmproxy==11.0 blinker==1.6.2 flask==2.1.3 werkzeug==2.3.8 jinja2==3.1.2 markupsafe==2.1.5 click==8.1.7 pyOpenSSL==23.2.0 cryptography==41.0.2 urllib3==1.26.18 certifi==2024.2.2 h2==4.1.0 wsproto==1.2.0 pyparsing==3.0.9 mitmproxy-rs==0.6.2 asgiref==3.7.2 msgpack==1.0.0 protobuf==4.24.0 publicsuffix2==2.20190812 pyperclip==1.8.2 sortedcontainers==2.4.0 zstandard==0.18.0
 ```
 
 Then run mitmproxy again
