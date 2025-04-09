@@ -59,3 +59,14 @@ Change IP in above command to IP of machine running the script <br>
 <br>
 Then in another terminal window run <br>
 python3 stream_link_server.py
+
+## Troubleshooting
+If mitmproxy moans about moduels not being installed or errors on launch it's probably due to module versions not being correct. Try doing the following from the location of where the scripts are <br>
+
+```
+python3 -m venv myenv
+source myenv/bin/activate
+pip install mitmproxy==8.1.1 blinker==1.4 flask==2.2.5 werkzeug==2.3.8
+```
+
+Then run mitmproxy again
