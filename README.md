@@ -1,7 +1,8 @@
 # okru-to-m3u
 
 ## Notes
-Only tested on Windows
+Only tested on Windows <br>
+See troubleshooting if you have issues launching mitmproxy due to dependencies
 
 ## Requirements
 python - must be 3.10 or higher (3.8 or lower is not supported by streamlink) <br>
