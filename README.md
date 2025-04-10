@@ -53,7 +53,7 @@ Here is an example
 #EXTM3U
 #EXTINF:-1 tvg-name="TMFRU" tvg-id="Music.Dummy.us" tvg-logo="https://tv2free.ru/sites/default/files/styles/large/public/tv-logo/tv-tmf-rus.jpg?itok=KyF1zaM5" group-title="Music",TMF RU
 http://192.168.1.123:7085/stream?url=https://ok.ru/live/6195706404393
-#EXTINF:-1 tvg-name="EuroDance90" tvg-id="Music.Dummy.us" tvg-logo="https://tv2free.ru/sites/default/files/styles/large/public/tv-logo/tv-tmf-rus.jpg?itok=KyF1zaM5" group-title="Music",EURODANCE 90
+#EXTINF:-1 tvg-name="EuroDance90" tvg-id="Music.Dummy.us" tvg-logo="https://tv2free.ru/sites/default/files/styles/large/public/tv-logo/tv-eurodance-90-hd.jpg?itok=Nr_oAx6e" group-title="Music",EURODANCE 90
 http://192.168.1.123:7085/stream?url=https://vk.ru/video-223902219_456239404
 ```
 
