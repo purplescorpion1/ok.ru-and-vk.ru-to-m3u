@@ -46,8 +46,8 @@ def response(flow: http.HTTPFlow) -> None:
 
             # Retry the request with new Referer and Origin
             flow.request.headers.update({
-                "Referer": "https://newembedplay.xyz/",
-                "Origin": "https://newembedplay.xyz"
+                "Referer": "https://vk.ru/",
+                "Origin": "https://vk.ru"
             })
 
             # Replay the modified request
