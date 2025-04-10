@@ -38,7 +38,7 @@ command2 = "python stream_link_server.py"
 ```
 To <br>
 ```
-command2 = "python stream_link_server_threadfin"
+command2 = "python stream_link_server_threadfin.py"
 ```
 
 Note if your aim is to access the streams outside of your network (different to what the streamlink server is running on) you will have to replace all the IP address with public IPs and port forward ports on your router/firewall - I will not be providing support for this!
@@ -74,7 +74,7 @@ mitmproxy -s mitmproxyserver.py --listen-host 192.168.1.123 --listen-port 7086
 Change IP in above command to IP of machine running the script <br>
 <br>
 Then in another terminal window run <br>
-python3 stream_link_server.py or python3 stream_link_server_threadfin
+python3 stream_link_server.py or python3 stream_link_server_threadfin.py
 
 ## Troubleshooting
 If mitmproxy moans about moduels not being installed or errors on launch it's probably due to module versions not being correct. Try doing the following from the location of where the scripts are <br>
