@@ -1,4 +1,4 @@
-# okru-to-m3u
+# ok.ru-and-vk.ru-to-m3u
 
 ## Notes
 Only tested on Windows <br>
@@ -40,6 +40,8 @@ Here is an example
 #EXTM3U
 #EXTINF:-1 tvg-name="TMFRU" tvg-id="Music.Dummy.us" tvg-logo="https://tv2free.ru/sites/default/files/styles/large/public/tv-logo/tv-tmf-rus.jpg?itok=KyF1zaM5" group-title="Music",TMF RU
 http://192.168.1.123:7085/stream?url=https://ok.ru/live/6195706404393
+#EXTINF:-1 tvg-name="EuroDance90" tvg-id="Music.Dummy.us" tvg-logo="https://tv2free.ru/sites/default/files/styles/large/public/tv-logo/tv-tmf-rus.jpg?itok=KyF1zaM5" group-title="Music",EURODANCE 90
+http://192.168.1.123:7085/stream?url=https://vk.ru/video-223902219_456239404
 ```
 
 ## How To Run - Windows and some linux
