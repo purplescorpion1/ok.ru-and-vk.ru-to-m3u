@@ -21,7 +21,7 @@ If it says unknown command/'streamlink' is not recognized as an internal or exte
 operable program or batch file. <br>
 Then you need to make sure you have installed streamlink to path/environmental variables
 
-## How To Use
+## How To Use (without threadfin)
 Open main.py with a code text editor <br>
 Change the IP address in the line starting ```command1 =``` to the IP of the machine running the script <br>
 <br>
@@ -29,6 +29,19 @@ Open stream_link_server.py with a code text editor <br>
 Change the IP address in the lines starting ```proxy_url =``` and ```return redirect``` to the IP address of the machine running the script <br>
 
 Note you can change port numbers but if you change the proxy port or the flask port you need to also change the corresponding proxy port in the main.py file and the flask port in the m3u file
+
+## How To Use (with threadfin)
+This is the same as withouth threadfin with the following additions <br>
+Change <br>
+```
+command2 = "python stream_link_server.py"
+```
+To <br>
+```
+command2 = "python stream_link_server_threadfin"
+```
+
+Note if your aim is to access the streams outside of your network (different to what the streamlink server is running on) you will have to replace all the IP address with public IPs and port forward ports on your router/firewall - I will not be providing support for this!
 
 ## Create an m3u file
 Create an m3u file for the streams you want to play <br>
@@ -61,7 +74,7 @@ mitmproxy -s mitmproxyserver.py --listen-host 192.168.1.123 --listen-port 7086
 Change IP in above command to IP of machine running the script <br>
 <br>
 Then in another terminal window run <br>
-python3 stream_link_server.py
+python3 stream_link_server.py or python3 stream_link_server_threadfin
 
 ## Troubleshooting
 If mitmproxy moans about moduels not being installed or errors on launch it's probably due to module versions not being correct. Try doing the following from the location of where the scripts are <br>
