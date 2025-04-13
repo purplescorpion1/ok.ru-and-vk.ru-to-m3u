@@ -33,7 +33,7 @@ Change the IP address in the lines starting ```proxy_url =``` and ```return redi
 Note you can change port numbers but if you change the proxy port or the flask port you need to also change the corresponding proxy port in the main.py file and the flask port in the m3u file
 
 ## How To Use (with threadfin)
-This is the same as withouth threadfin with the following additions <br>
+This is the same as without threadfin with the following additions <br>
 Change <br>
 ```
 command2 = "python stream_link_server.py"
