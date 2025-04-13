@@ -22,6 +22,8 @@ operable program or batch file. <br>
 Then you need to make sure you have installed streamlink to path/environmental variables
 
 ## How To Use (without threadfin)
+This version uses its own buffer and redirect which aids in stream stability however it may not work on all systems. If you have issues changing channels eg all channels are the same etc use the with threadfin version <br>
+<br>
 Open main.py with a code text editor <br>
 Change the IP address in the line starting ```command1 =``` to the IP of the machine running the script <br>
 <br>
